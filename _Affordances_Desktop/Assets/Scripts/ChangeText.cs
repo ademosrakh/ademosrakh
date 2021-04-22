@@ -120,7 +120,7 @@ public class ChangeText : MonoBehaviour
 
         if (m.breakTime == true)
         {
-            changingText.text = "Mandatory break " + m.breakTimer.ToString("#") + "seconds";
+            changingText.text = "Mandatory break " + m.breakTimer.ToString("#") + " seconds";
         }
         if (m.breakTimeBlack && !m.breakTime && m.samAnswered)
         {

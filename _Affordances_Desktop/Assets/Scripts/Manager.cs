@@ -206,10 +206,10 @@ public class Manager : MonoBehaviour
 
         if (SAMcode.allAnswered && breakTime && !breakTimeSet)
         {
-            breakTimer = 2f;
+            breakTimer = 10f;
             breakTimeSet = true;
         }
-        if ((CurrentTrial == 0 || CurrentTrial ==2) && samAnswered)
+        if ((CurrentTrial == 6 || CurrentTrial == 2) && samAnswered)
         {
             shortBreak = true;
         }
